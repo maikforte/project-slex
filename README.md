@@ -3,6 +3,7 @@
 ## Table of Contents
 1. [What the hell?](#what-the-hell)
 1. [Testing](#testing)
+1. [Linting](#linting)
 1. [Quickstart](#quickstart)
 
 ### What the hell?
