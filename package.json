@@ -1,0 +1,26 @@
+{
+  "name": "project-slex",
+  "version": "1.0.0",
+  "description": "Where all my ExpressJS related projects will be based on",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -- \"app/**/*.spec.js\"",
+    "start": "nodemon main.js",
+    "lint": "eslint app/**/*.js config/**/*.js main.js",
+    "lint-fix": "eslint --fix app/**/*.js config/**/*.js main.js"
+  },
+  "author": "Michael 'Maik' Ardan",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.7"
+  }
+}
